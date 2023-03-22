@@ -1,0 +1,25 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font: {
+    family: "Arial";
+    size: 1rem;
+  }
+}
+.container {
+  max-width: 1170px;
+  padding: 15px;
+  width: 100%;
+  margin: 0 auto;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
