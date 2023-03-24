@@ -1,0 +1,10 @@
+@mixin btn($color: #2f2745, $btnBg: #2f2745) {
+  color: $color;
+  background: $btnBg;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: white;
+  margin-left: 10px;
+  border-radius: 5px;
+}

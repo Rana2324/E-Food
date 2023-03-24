@@ -1,0 +1,36 @@
+.food_display {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.category_card {
+  flex-basis: 350px;
+  flex: 1;
+  margin: 20px 15px;
+  box-shadow: 5px 5px 5px 5px #888888;
+  border-radius: 5px;
+  h3 {
+    font-size: 25px;
+    padding: 10px 15px;
+  }
+  .category_image {
+    text-align: center;
+  }
+  .bottom {
+    border-top: 1px solid gray;
+    padding: 10px;
+    background-color: #394e52;
+    display: flex;
+    justify-content: space-around;
+    button {
+      padding: 8px 10px;
+      border-radius: 5px;
+      outline: none;
+      border: none;
+      cursor: pointer;
+      font-size: 16px;
+      // @include btn();
+    }
+  }
+}

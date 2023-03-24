@@ -10,6 +10,9 @@ body {
     family: "Arial";
     size: 1rem;
   }
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
 }
 .container {
   max-width: 1170px;
@@ -22,4 +25,7 @@ ul {
 }
 a {
   text-decoration: none;
+}
+main {
+  flex: 1;
 }
